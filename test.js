@@ -49,6 +49,6 @@ log.warn('BUG ALERT!');
 log.error('BUG ALERT!');
 log.fatal(999);	
 
-log.setFile('newfile');
+log.setFile('default.log');
 log.setLevel(Log.INFO);
 log.info('this creates new file in current directory');

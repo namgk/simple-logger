@@ -1,5 +1,10 @@
-var fs = require('fs'),
+var fs = require('fs'), config;
+
+try {
   config = require('./config');
+} catch (e){
+  config = {LOG_FILE: 'default.log', LOG_LEVEL: 0};  
+}
 
 var DEBUG = 5,
     INFO = 4,
