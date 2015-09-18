@@ -1,5 +1,5 @@
 {
-  "name": "simple-logger",
+  "name": "kb-logger",
   "version": "1.0.0",
   "description": "Dead simple logger for logging to file or std output",
   "main": "log.js",
