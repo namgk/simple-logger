@@ -1,0 +1,23 @@
+{
+  "name": "simple-logger",
+  "version": "1.0.0",
+  "description": "Dead simple logger for logging to file or std output",
+  "main": "log.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/namgk/simple-logger.git"
+  },
+  "keywords": [
+    "nodejs",
+    "logger"
+  ],
+  "author": "Nam K. Giang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namgk/simple-logger/issues"
+  },
+  "homepage": "https://github.com/namgk/simple-logger#readme"
+}
