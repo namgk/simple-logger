@@ -10,7 +10,8 @@ log.setFile(config.LOG_FILE);
 log.setLevel(config.LOG_LEVEL);
 
 log.info('info');
-log.info('info');
-log.info('info');
-log.info('info');
+log.debug('debug');
+log.fatal('fatal');
+log.warn('warn');
+log.error('error');
 ```
